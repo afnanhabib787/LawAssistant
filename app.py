@@ -35,7 +35,7 @@ if st.button("Submit"):
         1- You will be given a "USER INPUT QUERY", you have to generate a detailed response based on context below.
         2- The response should solve the problem in "USER INPUT QUERY".
         3- The response should be in points.
-        4- Refer to the 'act' from context with each point.
+        4- If possible, Refer to the 'act' from context with each point.
 
         Answer the question based on the context below, and if the question can't be answered based on the context, say "I don't know" 
         Context: {context}
