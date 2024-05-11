@@ -122,7 +122,7 @@ if st.button("Submit"):
                 pass
 
             try:
-                message_content = response_dict
+                message_content = response_dict["response_content"]
             except IndexError:
                 message_content = "I don't know"
 
